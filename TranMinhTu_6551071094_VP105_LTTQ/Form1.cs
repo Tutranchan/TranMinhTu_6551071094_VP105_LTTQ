@@ -130,7 +130,6 @@ namespace TranMinhTu_6551071094_VP105_LTTQ
 
 
 
-        //Hàm tự sinh ra//
         private void txtThongTinThietBi_Click(object sender, EventArgs e)
         {
             var kq = MessageBox.Show("Bạn có muốn thoát không?", "Thoát", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
@@ -201,7 +200,7 @@ namespace TranMinhTu_6551071094_VP105_LTTQ
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Lỗi khi thêm sinh viên: " + ex.Message, "Lỗi",
+                MessageBox.Show("Lỗi khi thêm thiết bị: " + ex.Message, "Lỗi",
                     MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
@@ -225,12 +224,12 @@ namespace TranMinhTu_6551071094_VP105_LTTQ
             {
                 using (var db = new DuLieuContext())
                 {
-                    var sv = db.SinhViens.Find(ma); // lấy sinh viên đang chọn
-                    if (sv != null)
+                    var tb = db.ThietBis.Find(ma);
+                    if (tb != null)
                     {
-                        sv.TenSinhVien = ten; // gán giá trị mới
-                        sv.DiemTrungBinh = diem;
-                        db.SaveChanges(); // EF tự sinh câu UPDATE
+                        tb.TenThietBi = ten; 
+                        tb.DonGia = dongia;
+                        db.SaveChanges(); 
                     }
                 }
                 LoadDanhSach();
@@ -238,7 +237,7 @@ namespace TranMinhTu_6551071094_VP105_LTTQ
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Lỗi khi cập nhật sinh viên: " + ex.Message, "Lỗi",
+                MessageBox.Show("Lỗi khi cập nhật thiết bị: " + ex.Message, "Lỗi",
                 MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
@@ -255,8 +254,8 @@ namespace TranMinhTu_6551071094_VP105_LTTQ
                 string ma = lblMaThietBi.Text.Trim();
                 using (var db = new DuLieu_ThietBiContext())
                 {
-                    var sv = db.ThietBis.Find(ma);
-                    if (sv != null)
+                    var tb = db.ThietBis.Find(ma);
+                    if (tb != null)
                     {
                         db.ThietBis.Remove(tb);
                         db.SaveChanges();
@@ -286,11 +285,10 @@ namespace TranMinhTu_6551071094_VP105_LTTQ
             }
 
             DataGridViewRow row = dgvThietBi.Rows[e.RowIndex];
-            txtMa.Text = Convert.ToString(row.Cells["MaSinhVien"].Value);
-            txtTen.Text = Convert.ToString(row.Cells["TenSinhVien"].Value);
-            txtDiem.Text = Convert.ToString(row.Cells["DiemTrungBinh"].Value);
+            txtMa.Text = Convert.ToString(row.Cells["MaThietBi"].Value);
+            txtTen.Text = Convert.ToString(row.Cells["TenThietBi"].Value);
+            txtDiem.Text = Convert.ToString(row.Cells["DonGia"].Value);
 
-            // Ma la khoa chinh nen khong cho sua khi dang chon mot dong
             txtMa.ReadOnly = true;
 
             btnSua.Enabled = true;
