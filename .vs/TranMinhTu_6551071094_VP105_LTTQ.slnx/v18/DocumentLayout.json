@@ -1,0 +1,78 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASUSNT\\source\\repos\\TranMinhTu_6551071094_VP105_LTTQ\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D49B49AF-7637-4F84-B5A2-6FEF66044CD1}|TranMinhTu_6551071094_VP105_LTTQ\\TranMinhTu_6551071094_VP105_LTTQ.csproj|c:\\users\\asusnt\\source\\repos\\tranminhtu_6551071094_vp105_lttq\\tranminhtu_6551071094_vp105_lttq\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D49B49AF-7637-4F84-B5A2-6FEF66044CD1}|TranMinhTu_6551071094_VP105_LTTQ\\TranMinhTu_6551071094_VP105_LTTQ.csproj|solutionrelative:tranminhtu_6551071094_vp105_lttq\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D49B49AF-7637-4F84-B5A2-6FEF66044CD1}|TranMinhTu_6551071094_VP105_LTTQ\\TranMinhTu_6551071094_VP105_LTTQ.csproj|c:\\users\\asusnt\\source\\repos\\tranminhtu_6551071094_vp105_lttq\\tranminhtu_6551071094_vp105_lttq\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D49B49AF-7637-4F84-B5A2-6FEF66044CD1}|TranMinhTu_6551071094_VP105_LTTQ\\TranMinhTu_6551071094_VP105_LTTQ.csproj|solutionrelative:tranminhtu_6551071094_vp105_lttq\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D49B49AF-7637-4F84-B5A2-6FEF66044CD1}|TranMinhTu_6551071094_VP105_LTTQ\\TranMinhTu_6551071094_VP105_LTTQ.csproj|c:\\users\\asusnt\\source\\repos\\tranminhtu_6551071094_vp105_lttq\\tranminhtu_6551071094_vp105_lttq\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D49B49AF-7637-4F84-B5A2-6FEF66044CD1}|TranMinhTu_6551071094_VP105_LTTQ\\TranMinhTu_6551071094_VP105_LTTQ.csproj|solutionrelative:tranminhtu_6551071094_vp105_lttq\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ASUSNT\\source\\repos\\TranMinhTu_6551071094_VP105_LTTQ\\TranMinhTu_6551071094_VP105_LTTQ\\Form1.cs",
+              "RelativeDocumentMoniker": "TranMinhTu_6551071094_VP105_LTTQ\\Form1.cs",
+              "ToolTip": "C:\\Users\\ASUSNT\\source\\repos\\TranMinhTu_6551071094_VP105_LTTQ\\TranMinhTu_6551071094_VP105_LTTQ\\Form1.cs [Design]",
+              "RelativeToolTip": "TranMinhTu_6551071094_VP105_LTTQ\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-28T09:20:53.562Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\ASUSNT\\source\\repos\\TranMinhTu_6551071094_VP105_LTTQ\\TranMinhTu_6551071094_VP105_LTTQ\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "TranMinhTu_6551071094_VP105_LTTQ\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\ASUSNT\\source\\repos\\TranMinhTu_6551071094_VP105_LTTQ\\TranMinhTu_6551071094_VP105_LTTQ\\Form1.Designer.cs",
+              "RelativeToolTip": "TranMinhTu_6551071094_VP105_LTTQ\\Form1.Designer.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAWwDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-28T09:14:21.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\ASUSNT\\source\\repos\\TranMinhTu_6551071094_VP105_LTTQ\\TranMinhTu_6551071094_VP105_LTTQ\\Form1.cs",
+              "RelativeDocumentMoniker": "TranMinhTu_6551071094_VP105_LTTQ\\Form1.cs",
+              "ToolTip": "C:\\Users\\ASUSNT\\source\\repos\\TranMinhTu_6551071094_VP105_LTTQ\\TranMinhTu_6551071094_VP105_LTTQ\\Form1.cs",
+              "RelativeToolTip": "TranMinhTu_6551071094_VP105_LTTQ\\Form1.cs",
+              "ViewState": "AgIAADABAAAAAAAAAAAkwPMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-28T08:14:44.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
